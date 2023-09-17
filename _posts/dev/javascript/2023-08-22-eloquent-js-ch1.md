@@ -5,14 +5,6 @@ categories: [Dev, JavaScript]
 tags: [JavaScript]
 ---
 
-## Contents
-
-- [1. Unary Operators](#1-Unary-Operators)
-- [2. Comparison](#2-Comparison)
-- [3. Empty Values](#3-Empty-Values)
-- [4. Automatic Type Conversion](#4-Automatic-Type-Conversion)
-- [5. Short Circuiting of Logical Operators](#5-Short-Circuiting-of-Logical-Operators)
-
 ## 1. Unary Operators
 
 - Operators that take only one value (typeof, !).
