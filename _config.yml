@@ -76,7 +76,7 @@ theme_mode: # [light|dark]
 img_cdn:
 
 # the avatar on sidebar, support local or CORS resources
-avatar: "/assets/images/development/golden-retriever-in-car.jpg"
+avatar: "/assets/images/moon2.png"
 
 # boolean type, the global switch for TOC in posts.
 toc: true
@@ -154,7 +154,7 @@ defaults:
       layout: page
       permalink: /:title/
   - scope:
-      path: assets/images/favicon
+      path: assets/img/favicons
     values:
       swcache: true
   - scope:
