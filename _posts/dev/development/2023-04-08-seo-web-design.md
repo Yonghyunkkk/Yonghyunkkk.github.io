@@ -39,7 +39,7 @@ For example,
 
 - golden-retriever-in-car.jpg
 
-  ![d](/assets/images/development/golden-retriever-in-car.jpg)
+  ![d](/assets/img/development/golden-retriever-in-car.jpg)
 
 ### Alt Tags
 

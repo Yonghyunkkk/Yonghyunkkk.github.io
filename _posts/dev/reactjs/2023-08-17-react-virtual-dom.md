@@ -11,7 +11,7 @@ We all know that React uses virtual DOM to optimize performance. However, do we 
 
 ## What is DOM?
 
-![d](/assets/images/react/DOM.png)
+![d](/assets/img/react/DOM.png)
 
 Before we learn about what virutal DOM is, we should first understand what DOM is. DOM, which stands for **Domain Object Model**, represents xml or html documents as a **tree structure**.
 
@@ -25,7 +25,7 @@ The problem of DOM manipulation is that re-rendering is expensive. Every time yo
 
 ## How does virtual DOM solve this?
 
-![d](/assets/images/react/VirtualDom.png)
+![d](/assets/img/react/VirtualDom.png)
 
 When we render an application user interface, React will create a virtual DOM for that user interface. This virtual DOM will be stored in memory as a JavaScript object. When we make modification to the user interface, a new virtual DOM will be created with the updated change.
 
