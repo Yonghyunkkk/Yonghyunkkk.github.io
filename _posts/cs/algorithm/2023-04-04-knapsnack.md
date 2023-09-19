@@ -49,6 +49,6 @@ return N(n,W);
 
 **Sample Run:**
 
-![d](/assets/images/algorithm/knapsnack_item.png)
+![d](/assets/img/algorithm/knapsnack_item.png)
 
-![d](/assets/images/algorithm/knapsnack_table.png)
+![d](/assets/img/algorithm/knapsnack_table.png)
