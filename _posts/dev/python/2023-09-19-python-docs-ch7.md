@@ -169,7 +169,7 @@ And youth for ever lost.
 
 ## 7.6 JSON
 
-We can use `json` to serialize and deserialize data.
+We can use `json` to _serialize_ and _deserialize_ data.
 
 - **Serialize:**
   - Take Python data hierarchies and convert them to JSON string representation.
