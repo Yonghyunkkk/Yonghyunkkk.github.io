@@ -104,7 +104,7 @@ except ZeroDivisionError as err:
 
 ## 8.4 Raising Exceptions
 
-- Use `raise` to force a specified exception:
+- Use `raise` to **force** a specified exception:
 
 ```python
 raise NameError('HiThere')
