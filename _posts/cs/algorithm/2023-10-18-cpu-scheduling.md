@@ -82,17 +82,17 @@ CPU 스케줄링 방식에는 두 가지 경우가 있다.
   - 공평하면서도 cpu busrt시간이 짧은 프로세스가 빨리 cpu를 얻을 수 있도록 한다.
 6. **멀티레벨 큐 (Multi-Level Queue):**
   - 준비큐를 여러 개로 분할해 관리하는 기법.
-      1. 전위 큐 (foreground queue):
-          - 대화형 작업을 담기 위한 큐.
-          - 라운드 로빈 스케줄링 사용 (응답시간 짧게 하기 위해).
-      2. 후위 큐 (background queue):
-          - 계산 위주의 작업을 담기 위한 큐. 
-          - FCFS 사용 (context overhead 줄이기 위해).
+        1. 전위 큐 (foreground queue):
+            - 대화형 작업을 담기 위한 큐.
+            - 라운드 로빈 스케줄링 사용 (응답시간 짧게 하기 위해).
+        2. 후위 큐 (background queue):
+            - 계산 위주의 작업을 담기 위한 큐. 
+            - FCFS 사용 (context overhead 줄이기 위해).
   - 큐에 대한 스케줄링 또한 필요하다.
-      1. 고정 우선순위 방식 (fixed priority scheduling):
-           - 우선순위가 높은 큐에게 먼저 할당한다.
-      2. 타임 슬라이스 (time slice):
-           - 각 큐에 적절한 cpu 시간을 비율로 할당한다.
+        1. 고정 우선순위 방식 (fixed priority scheduling):
+             - 우선순위가 높은 큐에게 먼저 할당한다.
+        2. 타임 슬라이스 (time slice):
+             - 각 큐에 적절한 cpu 시간을 비율로 할당한다.
 7. **멀티레벨 피드백 큐 (Multilevel Feedback Queue):**
    - 프로세스가 하나의 큐에서 다른 큐로 이동 가능하다.
    - 우선순위가 낮은 큐에서 기다렸으면 우선순위가 높은 큐로 승격시키는 방식.
