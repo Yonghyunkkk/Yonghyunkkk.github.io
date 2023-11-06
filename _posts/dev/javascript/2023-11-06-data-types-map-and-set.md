@@ -9,7 +9,7 @@ tags: [JavaScript]
 
 **Map** is a collection of keyed data items, just like an `Object`.
 
-The difference between `Map` and `Object` is that `Map` allows keys of **any** type.
+The difference between `Map` and `Object` is that `Map` allows keys of any type.
 
 ## 2. Map Methods
 
