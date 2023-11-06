@@ -44,7 +44,7 @@ One thing here is to notice that unlike `Objects`, `Map` does not convert the **
 >
 > Although `map[key]` also works, this is treating a `map` as an `object`, applying all corresponding limitations on an `object` (only string/symbol keys and so on).
 >
-> Hence, we should use `map` methos: `set`, `get`, and so on...
+> Hence, we should use `map` methods: `set`, `get`, and so on...
 {: .prompt-tip}
 
 One **important** property of `Map` is that it can use an `object` as keys.
