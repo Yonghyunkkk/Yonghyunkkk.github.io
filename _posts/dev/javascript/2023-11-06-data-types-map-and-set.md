@@ -40,7 +40,7 @@ alert( map.size ); // 3
 
 One thing here is to notice that unlike `Objects`, `Map` does not convert the **key** to strings!!
 
-> `map[key]` isn't the right way to use a `Map`
+> ### `map[key]` isn't the right way to use a `Map`
 >
 > Although `map[key]` also works, this is treating a `map` as an `object`, applying all corresponding limitations on an `object` (only string/symbol keys and so on).
 >
@@ -61,14 +61,14 @@ visitsCountMap.set(john, 123);
 alert( visitsCountMap.get(john) ); // 123
 ```
 
-> How `Map` compares keys
+> ### How `Map` compares keys
 >
 > `Map` uses roughly the same as strict equaility `===`, but the difference is that `NaN` is considered equal to `NaN`.
 >
 > Hence, `NaN` can be used as a key.
 {: .prompt-tip}
 
-> Chaining
+> ### Chaining
 >
 > Every `map.set` call returns the map itself, so we can **chain** the calls.
 {: .prompt-tip}
@@ -106,7 +106,7 @@ for (let entry of recipeMap) { // the same as of recipeMap.entries()
 }
 ```
 
-> `Map` preserves order
+> ### `Map` preserves order
 >
 > Unlike a regular `Object` where the order is not preserved, `Map` preserves the order of values inserted.
 {: .prompt-tip}
@@ -181,7 +181,7 @@ set.forEach((value, valueAgain, set) => {
 });
 ```
 
-> `forEach` has 3 arguments. This is for compatibility with `Map`. This may help replace `Map` with `Set` in the future.
+> ### `forEach` has 3 arguments. This is for compatibility with `Map`. This may help replace `Map` with `Set` in the future.
 {: .prompt-tip}
 
 Same methods `Map` has for iterators are also supported:
