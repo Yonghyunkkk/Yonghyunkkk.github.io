@@ -79,6 +79,30 @@ fruits.pop()
 
 > **Note:** `insert`, `remove`, and `sort` does not have a return value.
 
+### How to create a multidimensional list?
+
+You should **always** use <span style="font-weight: bold; color: orange;">list comprehension</span> when creating ***multidimensional list***. 
+
+For example, if you try to make a ***multidimensional list*** like this:
+
+```python
+array = [[None] * 2] * 3
+
+print(array) # [[None, None], [None, None], [None, None]]
+```
+
+However, when you change the value, it appears like this:
+
+```python
+array[0][0] = 5
+
+print(array) # [[5, None], [5, None], [5, None]]
+```
+
+The reason is because replicating a list using `*` does not create ***copies***. It only creates <span style="font-weight: bold; color: orange;">references</span> to the exiting object. The `* 3` creates <span style="font-weight: bold; color: orange;">3 references</span> to the same list of length two. 
+
+Hence, **always** use <span style="font-weight: bold; color: orange;">list comprehension</span> when creating ***multidimensional arrays***.
+
 ## 5.2 Use Lists as Stack (LIFO)
 
 ```python
