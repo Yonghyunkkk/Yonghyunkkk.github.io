@@ -161,15 +161,17 @@ del b [:] # []
 
 ## 5.7 Tuples and Sequences
 
-Sequence Types - List, Tuple, Range
+Sequence Types - List, Tuple, Range, String (**Ordered Collections**)
 
-Tuple consists of number of values separated by commas.
+Tuple consists of number of values separated by commas. *Tuples* and *Lists* are used for different purpose. Tuples are **immutable** and the elements are **heterogeneous**. The elements are access through **unpacking** or **indexing**. It would be <span style="font-weight: bold; color: orange;">beneficial</span> to use tuples for data that should <span style="font-weight: bold; color: orange;">not be changed</span>! On the other hand, lists are **mutable** and the elements are **homogeneous**. 
 
 ```python
-t = 1, 'hi', 2
+t = 1, 'hi', 2 # This is tuple packing.
 t[0] # 1
 
 print(t) # (1, 'hi', 2)
+
+a, b, c = t # This is tuple unpacking.
 
 u = t, (1, 2, 3)
 
@@ -197,11 +199,15 @@ len(singleton) # 1
 print(singleton) # ('Hello', )
 ```
 
+> **Note:** When unpacking sequences, the number of variables on the left side should match the length of sequences!
+{: .prompt-info}
+
 ## 5.8 Sets
 
 **Unordered** collections with **no duplicate** elements. Also supports union, intersection, difference, and symmetric difference.
 
 > **Note:** To create an empty set, use `set()` not `{}`.
+{: .prompt-info}
 
 ```python
 basket = {'apple', 'orange', 'apple', 'pear', 'orange', 'banana'}
@@ -256,9 +262,9 @@ tel['irv'] = 4127
 
 print(tel) # {'jack': 4098, 'guido': 4127, 'irv': 4127}
 
-list(tel) # ['jack', 'guido', 'irv']
+list(tel) # ['jack', 'guido', 'irv'] List all the keys
 
-sorted(tel) # ['guido', 'irv', 'jack']
+sorted(tel) # ['guido', 'irv', 'jack'] List all the keys in sorted order
 
 'guido' in tel
 True
