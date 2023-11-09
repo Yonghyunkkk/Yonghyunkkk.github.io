@@ -89,9 +89,9 @@ Suspending occurs to a process when:
 *Signals* also known as <span style="font-weight: bold; color: orange;">software interrupt</span> is used to notify a process that some event has occured.
 
 1. **Synchronous Signal:** Triggered by current running process.
-   - Illegal memory access, division by zero
-2. **Asynchronous Signal:** Trigeered by external events.
-   - Timer interrupt, parent process killing the child process
+     - Illegal memory access, division by zero
+2. **Asynchronous Signal:** Triggered by external events.
+     - Timer interrupt, parent process killing the child process
   
 A *process* can decide whether to **catch**, **ignore**, and **mask** a signal.
 
