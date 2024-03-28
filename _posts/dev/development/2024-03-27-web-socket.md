@@ -29,7 +29,7 @@ Long polling works differently from polling. When userB makes a request, the bac
 
 ![d](/assets/img/development/SSE.png)
 
-It operates based on the HTTP protocol and works in a unidirectional manner, where data is sent from the server to the client. It can be useful for tasks that involve pushing server events or messages to clients. Therefore, it would be beneficial to use for updating real-time data such as trending keywords, weather information, or email updates.
+SSE operates based on the HTTP protocol and works in a unidirectional manner, where data is sent from the server to the client. It can be useful for tasks that involve pushing server events or messages to clients. Therefore, it would be beneficial to use for updating real-time data such as trending keywords, weather information, or email updates.
 
 ## WebSockets
 
